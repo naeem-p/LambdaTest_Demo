@@ -20,6 +20,12 @@ To run single test (iOS App Automation) use below command
 
 To run Cypress Test use below command
      npm test    
+     
+To run playwright Test - Single Thread    
+     node playwright_single.js 
+     
+To run playwright Test - Parallel 3 Thread's
+     node playwright_parallel.js   
 
 ```
 
@@ -34,3 +40,5 @@ Navigate to https://beta-smartui.lambdatest.com/
 
 ## Note- Above Step 1 & 2 in Visual UI test needs to be executed only onc's i.e to create the project and run the baseline.
 ## In Demo's please don't change Baseline
+
+

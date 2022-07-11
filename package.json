@@ -16,6 +16,9 @@
   "devDependencies": {
     "cypress": "6.2.1",
     "lambdatest-cypress-cli": "git+https://github.com/LambdaTest/lambdatest-cypress-cli.git",
-    "typescript": "3.7.4"
+    "typescript": "3.7.4",
+    "@playwright/test": "^1.20.2",
+    "playwright": "^1.20.2",
+    "@cucumber/cucumber": "^7.3.2"
   }
 }

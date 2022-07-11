@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Java_TestNG_Web-App" />
         <module name="Java-TestNG-Selenium" />
+        <module name="LambdaTest_Demo" />
       </profile>
     </annotationProcessing>
   </component>
