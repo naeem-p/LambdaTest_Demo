@@ -5,8 +5,9 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - before: mvn install
+  - before: npm install
     init: npm install
-    command: npm test
+    command: npm install
   - name: Results
-    command: fetch-Lt-sessions
+    init: npm test
+    command: node /workspace/LambdaTest_Demo/node_modules/@lambdatest/node-fetch-sessions/index.js
