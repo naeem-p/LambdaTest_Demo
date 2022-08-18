@@ -5,7 +5,9 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: mvn install # runs during prebuild
-    command:
-          npm install # installs package.json
-          
+  - before: mvn install
+    init: npm install
+    command: npm test
+  - name: Results
+    init: npm i -g  @lambdatest/node-fetch-sessions
+    command: fetch-Lt-sessions
