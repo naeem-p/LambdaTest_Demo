@@ -9,5 +9,4 @@ tasks:
     init: npm install
     command: npm test
   - name: Results
-    init: npm i -g  @lambdatest/node-fetch-sessions
     command: fetch-Lt-sessions
