@@ -1,5 +1,8 @@
 
 ```
+Run below command at the very beginning
+     mvn clean
+
 To run single test (Web Browser Automation) use below command
      mvn test -D suite=single.xml
 
