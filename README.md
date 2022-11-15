@@ -5,6 +5,9 @@ To run single test (Web Browser Automation) use below command
 
 To run parallel test (Web Browser Automation) use below command
      mvn test -D suite=parallel.xml
+     
+To run single test (Mobile Browser Automation on Real Device) use below command
+     mvn test -D suite=mobile.xml
 
 To run single test (Android App Automation) use below command
      mvn test -D suite=android_single.xml
