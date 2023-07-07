@@ -31,6 +31,9 @@ public class iOS2 extends AppUpload {
                 capabilities.setCapability("console", true);
                 capabilities.setCapability("visual", true);
                 capabilities.setCapability("app", "iOS_appurl");
+                capabilities.setCapability("network", true);
+                capabilities.setCapability("visual", true);
+                capabilities.setCapability("console", true);
 
                 IOSDriver<IOSElement> driver = new IOSDriver<IOSElement>(
                                 new URL("https://" + username + ":" + accessKey + "@beta-hub.lambdatest.com/wd/hub"),
